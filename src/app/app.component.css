@@ -1,0 +1,39 @@
+.container{
+   display: grid;
+   justify-content: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px) ;
+    justify-items: center;
+    gap:5px;
+  }
+.game-square { 
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 0.85;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid rgb(88, 124, 124);
+    background-color: rgb(196, 248, 248);
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  }
+
+  p { 
+    display: inline;
+    margin: 0px;
+    font-size: 4rem;
+    overflow: hidden;
+    position:relative;
+    top:21px;
+  }
+
+  .noClick {
+    pointer-events: none;
+  }
+
+  .text-grey-darker{
+    color: grey;
+    font-weight: bolder;
+  }
